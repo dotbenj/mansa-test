@@ -1,4 +1,4 @@
-export interface AccountRo {
+export interface Account {
   account_id: string;
   account_type: 'ACCOUNT' | 'DEBIT';
   iban: string;
